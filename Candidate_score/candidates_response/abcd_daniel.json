@@ -1,0 +1,30 @@
+{
+    "personal_info": {
+        "name": "Daniel Roberts",
+        "phone": "+44 07567891234"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "University of Glasgow, UK",
+            "start_date": "09/2014",
+            "end_date": "06/2017"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Frontend Developer",
+            "company": "Creative Web Ltd.",
+            "start_date": "07/2017",
+            "end_date": "Present",
+            "responsibilities": "Designed and developed responsive web interfaces using HTML, CSS, and JavaScript., Collaborated with UX/UI designers to enhance user experience., Optimized web performance and ensured cross-browser compatibility."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "Interactive Portfolio Website",
+            "description": "Developed a personal portfolio website showcasing projects and skills using React and CSS Grid."
+        }
+    ],
+    "skills": "HTML, CSS, JavaScript, React, UX/UI Design, Responsive Design"
+}

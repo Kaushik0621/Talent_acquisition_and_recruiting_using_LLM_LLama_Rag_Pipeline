@@ -1,0 +1,38 @@
+{
+    "personal_info": {
+        "name": "KAUSHIK DAS",
+        "phone": "+44 07388449042"
+    },
+    "education": [
+        {
+            "degree": "Master of Science in Artificial Intelligence",
+            "institution": "University of Aberdeen, UK",
+            "start_date": "01/2023",
+            "end_date": "06/2024"
+        },
+        {
+            "degree": "Bachelor of Technology in Electronics and Communications",
+            "institution": "IEM, KOLKATA, INDIA",
+            "start_date": "N/A",
+            "end_date": "N/A"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Software Engineer",
+            "company": "Kairos Consulting",
+            "start_date": "07/2019",
+            "end_date": "12/2022",
+            "responsibilities": "Contributed to an R&D project for a healthcare client focused on real-time image processing using OpenCV and Scikit-Image., Developed and integrated CNNs with TensorFlow and Keras for pattern and anomaly detection in medical images., Built and maintained an end-to-end web application for an e-commerce client using MERN stack., Analyzed sales data and implemented a Random Forest model that predicted customer demand, resulting in a 12.8% increase in sales., Utilized AWS EC2 for scalable hosting, deployed applications with Docker, managed AWS RDS for secure database, and implemented S3 and CloudFront for efficient asset storage."
+        },
+        {
+            "role": "Intern",
+            "company": "Core JAVA with Android | RCPL(HP)",
+            "start_date": "01/2018",
+            "end_date": "03/2018",
+            "responsibilities": "Developed and tested Android applications using JAVA to improve app functionality and user experience."
+        }
+    ],
+    "projects": [],
+    "skills": "Python, Java, C, HTML, CSS, JavaScript, Django, React, TensorFlow, PyTorch, Scikit-learn, Keras, Generative AI, NLG, LLMs, React, Fast API, Rest API, Flask, Gradio Framework, MySQL, Microsoft Access, AWS"
+}

@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Alice Cooper",
+        "phone": "+44 07234567891"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Engineering",
+            "institution": "University of Edinburgh, UK",
+            "start_date": "09/2015",
+            "end_date": "06/2018"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Software Developer",
+            "company": "DataTech Ltd.",
+            "start_date": "08/2018",
+            "end_date": "Present",
+            "responsibilities": "Developed and optimized data processing pipelines using Python and Apache Spark. Implemented data visualization tools using D3.js and React. Managed database migrations and performed performance tuning."
+        }
+    ],
+    "skills": "Python, Apache Spark, D3.js, React, Node.js, SQL, Data Visualization"
+}

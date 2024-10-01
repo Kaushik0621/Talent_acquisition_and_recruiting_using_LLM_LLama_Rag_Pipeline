@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Philip Brown",
+        "phone": "+44 7892 123 456"
+    },
+    "education": [
+        {
+            "degree": "Master of Architecture",
+            "institution": "University of Glasgow, UK",
+            "start_date": "09/2012",
+            "end_date": "06/2014"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Architect",
+            "company": "DesignInnovations Ltd.",
+            "start_date": "07/2014",
+            "end_date": "Present",
+            "responsibilities": "Designed residential and commercial buildings. Collaborated with clients to understand their vision. Managed construction projects from concept to completion."
+        }
+    ],
+    "skills": "Architectural Design, Project Management, Client Collaboration, CAD, 3D Modeling"
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function validateForm() {
+            const formSections = document.querySelectorAll('.section');
+            let isValid = true;
+
+            // Iterate over each form section and check if fields are filled
+            formSections.forEach(section => {
+                const inputs = section.querySelectorAll('input, textarea');
+                inputs.forEach(input => {
+                    if (input.hasAttribute('required') && !input.value.trim()) {
+                        isValid = false;
+                        input.style.borderColor = 'red'; // Highlight empty fields
+                    } else {
+                        input.style.borderColor = ''; // Reset border color
+                    }
+                });
+            });
+
+            if (!isValid) {
+                alert('Please fill in all required fields.');
+            }
+
+            return isValid;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form action="/submit" method="POST" onsubmit="return validateForm()">
+            <!-- Personal Details Section -->
+            <div class="section">
+                <h2>Personal Details</h2>
+                <div class="form-section">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="{{ data.personal_info.name }}" required>
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone" value="{{ data.personal_info.phone }}" required>
+                </div>
+                <div class="form-section">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" value="{{ session['user'] }}" readonly>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="section">
+                <h2>Education</h2>
+                <div id="education_section">
+                    {% for edu in data.education %}
+                        <div class="education-item">
+                            <div class="form-section">
+                                <label>Degree:</label>
+                                <input type="text" name="degree" value="{{ edu.degree }}" required>
+                                <label>Institution:</label>
+                                <input type="text" name="institution" value="{{ edu.institution }}" required>
+                            </div>
+                            <div class="form-section">
+                                <label>Start Date:</label>
+                                <input type="text" name="education_start_date" value="{{ edu.start_date }}" placeholder="mm/yyyy" required>
+                                <label>End Date:</label>
+                                <input type="text" name="education_end_date" value="{{ edu.end_date }}" placeholder="mm/yyyy" required>
+                            </div>
+                            <hr>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="button-container">
+                    <button type="button" class="add-delete-btn" onclick="addEducation()">Add More Education</button>
+                    <button type="button" class="add-delete-btn" onclick="deleteEducation()">Delete Last Education</button>
+                </div>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div class="section">
+                <h2>Work Experience</h2>
+                <div id="work_experience_section">
+                    {% for work in data.work_experience %}
+                        <div class="work-item">
+                            <div class="form-section">
+                                <label>Role:</label>
+                                <input type="text" name="role" value="{{ work.role }}" required>
+                                <label>Company:</label>
+                                <input type="text" name="company" value="{{ work.company }}" required>
+                            </div>
+                            <div class="form-section">
+                                <label>Start Date:</label>
+                                <input type="text" name="work_start_date" value="{{ work.start_date }}" placeholder="mm/yyyy" required>
+                                <label>End Date:</label>
+                                <input type="text" name="work_end_date" value="{{ work.end_date }}" placeholder="mm/yyyy" required>
+                                <button type="button" class="still-working" onclick="toggleStillWorking(this, '{{ work.end_date }}')">Still Working Here</button>
+                            </div>
+                            <div class="form-section">
+                                <label>Responsibilities:</label>
+                                <textarea name="responsibilities" placeholder="Responsibilities" required>{{ work.responsibilities | join(', ') }}</textarea>
+                            </div>
+                            <hr>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="button-container">
+                    <button type="button" class="add-delete-btn" onclick="addWorkExperience()">Add More Work</button>
+                    <button type="button" class="add-delete-btn" onclick="deleteWorkExperience()">Delete Last Work</button>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="section">
+                <h2>Projects</h2>
+                <div id="projects_section">
+                    {% for project in data.projects %}
+                        <div class="project-item">
+                            <div class="form-section">
+                                <label>Project Name:</label>
+                                <input type="text" name="project_name" value="{{ project.name }}" required>
+                                <label>GitHub Link:</label>
+                                <input type="text" name="github_link" value="{{ project.link }}" required>
+                            </div>
+                            <hr>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="button-container">
+                    <button type="button" class="add-delete-btn" onclick="addProject()">Add More Project</button>
+                    <button type="button" class="add-delete-btn" onclick="deleteProject()">Delete Last Project</button>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="section">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <textarea name="skills" maxlength="200" required>{{ data.skills | join(', ') }}</textarea>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn center">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        let lastStillWorkingBtn = null;
+
+        function addEducation() {
+            const educationSection = document.getElementById('education_section');
+            const newDiv = document.createElement('div');
+            newDiv.classList.add('education-item');
+            newDiv.innerHTML = `
+                <div class="form-section">
+                    <label>Degree:</label>
+                    <input type="text" name="degree" placeholder="Degree">
+                    <label>Institution:</label>
+                    <input type="text" name="institution" placeholder="Institution">
+                </div>
+                <div class="form-section">
+                    <label>Start Date:</label>
+                    <input type="text" name="education_start_date" placeholder="mm/yyyy">
+                    <label>End Date:</label>
+                    <input type="text" name="education_end_date" placeholder="mm/yyyy">
+                </div>
+                <hr>`;
+            educationSection.appendChild(newDiv);
+        }
+
+        function deleteEducation() {
+            const educationSection = document.getElementById('education_section');
+            if (educationSection.children.length > 0) {
+                educationSection.removeChild(educationSection.lastChild);
+            }
+        }
+
+        function addWorkExperience() {
+            const workSection = document.getElementById('work_experience_section');
+            const newDiv = document.createElement('div');
+            newDiv.classList.add('work-item');
+            newDiv.innerHTML = `
+                <div class="form-section">
+                    <label>Role:</label>
+                    <input type="text" name="role" placeholder="Role">
+                    <label>Company:</label>
+                    <input type="text" name="company" placeholder="Company">
+                </div>
+                <div class="form-section">
+                    <label>Start Date:</label>
+                    <input type="text" name="work_start_date" placeholder="mm/yyyy">
+                    <label>End Date:</label>
+                    <input type="text" name="work_end_date" placeholder="mm/yyyy">
+                    <button type="button" class="still-working" onclick="toggleStillWorking(this, '')">Still Working Here</button>
+                </div>
+                <div class="form-section">
+                    <label>Responsibilities:</label>
+                    <textarea name="responsibilities" placeholder="Responsibilities"></textarea>
+                </div>
+                <hr>`;
+            workSection.appendChild(newDiv);
+        }
+
+        function deleteWorkExperience() {
+            const workSection = document.getElementById('work_experience_section');
+            if (workSection.children.length > 0) {
+                workSection.removeChild(workSection.lastChild);
+            }
+        }
+
+        function toggleStillWorking(button, originalEndDate) {
+            const endDateInput = button.previousElementSibling;
+            if (lastStillWorkingBtn && lastStillWorkingBtn !== button) {
+                lastStillWorkingBtn.innerText = "Still Working Here";
+                const lastEndDateInput = lastStillWorkingBtn.previousElementSibling;
+                lastEndDateInput.disabled = false;
+                lastEndDateInput.value = lastStillWorkingBtn.getAttribute('data-original-end-date');
+            }
+
+            if (button.innerText === "Still Working Here") {
+                button.setAttribute('data-original-end-date', endDateInput.value);
+                button.innerText = "Undo";
+                endDateInput.value = "Still Working Here";
+                endDateInput.disabled = true;
+                lastStillWorkingBtn = button;
+            } else {
+                button.innerText = "Still Working Here";
+                endDateInput.disabled = false;
+                endDateInput.value = originalEndDate;
+                lastStillWorkingBtn = null;
+            }
+        }
+
+        function addProject() {
+            const projectSection = document.getElementById('projects_section');
+            const newDiv = document.createElement('div');
+            newDiv.classList.add('project-item');
+            newDiv.innerHTML = `
+                <div class="form-section">
+                    <label>Project Name:</label>
+                    <input type="text" name="project_name" placeholder="Project Name">
+                    <label>GitHub Link:</label>
+                    <input type="text" name="github_link" placeholder="GitHub Link">
+                </div>
+                <hr>`;
+            projectSection.appendChild(newDiv);
+        }
+
+        function deleteProject() {
+            const projectSection = document.getElementById('projects_section');
+            if (projectSection.children.length > 0) {
+                projectSection.removeChild(projectSection.lastChild);
+            }
+        }
+    </script>
+</body>
+</html>

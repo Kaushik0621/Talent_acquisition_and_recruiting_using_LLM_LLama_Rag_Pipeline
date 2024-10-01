@@ -1,0 +1,36 @@
+{
+    "personal_info": {
+        "name": "Olivia Scott",
+        "phone": "+44 07891234567"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "University of Nottingham, UK",
+            "start_date": "09/2017",
+            "end_date": "06/2020"
+        },
+        {
+            "degree": "Master of Science in Human-Computer Interaction",
+            "institution": "University of York, UK",
+            "start_date": "09/2020",
+            "end_date": "06/2022"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "UX/UI Designer",
+            "company": "DesignFlow Ltd.",
+            "start_date": "07/2022",
+            "end_date": "Present",
+            "responsibilities": "Designed user interfaces and conducted user research., Developed wireframes and prototypes using Figma., Collaborated with developers to ensure design implementation."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "Mobile App Redesign",
+            "description": "Redesigned a mobile app interface to improve user engagement and usability based on user feedback and testing."
+        }
+    ],
+    "skills": "Figma, UX Design, UI Design, Wireframing, Prototyping, User Research"
+}

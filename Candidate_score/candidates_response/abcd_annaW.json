@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Anna White",
+        "phone": "+1 876-543-2109"
+    },
+    "education": [
+        {
+            "degree": "Master of Science in Data Science",
+            "institution": "Massachusetts Institute of Technology, USA",
+            "start_date": "09/2015",
+            "end_date": "05/2017"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Data Scientist",
+            "company": "DataAnalytics Inc.",
+            "start_date": "06/2017",
+            "end_date": "Present",
+            "responsibilities": "Analyzed large datasets to extract insights and inform business decisions. Developed machine learning models for predictive analytics. Created data visualizations to communicate findings."
+        }
+    ],
+    "skills": "Data Analysis, Machine Learning, Predictive Analytics, Data Visualization, Python, R"
+}

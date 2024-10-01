@@ -1,0 +1,47 @@
+{
+    "personal_info": {
+        "name": "John Smith",
+        "phone": "+44 07123456789"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "University College London, UK",
+            "start_date": "09/2017",
+            "end_date": "06/2020"
+        },
+        {
+            "degree": "Master of Science in Software Engineering",
+            "institution": "Imperial College London, UK",
+            "start_date": "09/2020",
+            "end_date": "06/2022"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Software Engineer",
+            "company": "Tech Solutions Ltd.",
+            "start_date": "07/2022",
+            "end_date": "Present",
+            "responsibilities": "Developed and maintained web applications using JavaScript and React., Implemented RESTful APIs with Node.js and Express., Collaborated in an Agile environment to deliver high-quality software solutions., Conducted code reviews and participated in design discussions."
+        },
+        {
+            "role": "Software Development Intern",
+            "company": "Innovate Inc.",
+            "start_date": "06/2021",
+            "end_date": "08/2021",
+            "responsibilities": "Assisted in the development of a mobile app using Flutter., Wrote and tested code for new features and bug fixes., Participated in team meetings and contributed to project planning."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "E-commerce Platform",
+            "description": "Developed a full-stack e-commerce application using MERN stack. Integrated payment gateways and implemented user authentication."
+        },
+        {
+            "project_name": "Real-time Chat Application",
+            "description": "Built a real-time chat application using WebSockets and Node.js. Implemented features like chat rooms and private messaging."
+        }
+    ],
+    "skills": "JavaScript, React, Node.js, Express, HTML, CSS, REST APIs, Agile, Git, MongoDB"
+}

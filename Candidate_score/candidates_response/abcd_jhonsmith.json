@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "John Smith",
+        "phone": "+1 555-1234-5678"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Commerce in Accounting",
+            "institution": "University of Toronto, Canada",
+            "start_date": "09/2010",
+            "end_date": "06/2014"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Senior Accountant",
+            "company": "FinanceCorp Ltd.",
+            "start_date": "07/2014",
+            "end_date": "Present",
+            "responsibilities": "Managed financial statements and reporting for multi-national clients. Conducted audits and compliance checks, ensuring adherence to financial regulations. Led a team in the implementation of a new accounting software system."
+        }
+    ],
+    "skills": "Financial Reporting, Audit, Compliance, SAP, Microsoft Excel, Taxation"
+}

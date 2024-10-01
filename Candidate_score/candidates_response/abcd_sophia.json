@@ -1,0 +1,36 @@
+{
+    "personal_info": {
+        "name": "Sophia Lewis",
+        "phone": "+44 07456789123"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Information Technology",
+            "institution": "University of Bristol, UK",
+            "start_date": "09/2016",
+            "end_date": "06/2019"
+        },
+        {
+            "degree": "Master of Science in Data Science",
+            "institution": "University of Oxford, UK",
+            "start_date": "09/2019",
+            "end_date": "06/2021"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Data Scientist",
+            "company": "Data Solutions Ltd.",
+            "start_date": "07/2021",
+            "end_date": "Present",
+            "responsibilities": "Developed machine learning models for predictive analytics., Conducted exploratory data analysis and statistical analysis., Presented findings and recommendations to stakeholders."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "Customer Churn Prediction",
+            "description": "Created a predictive model using Python and scikit-learn to forecast customer churn, aiding in retention strategies."
+        }
+    ],
+    "skills": "Python, scikit-learn, Machine Learning, Data Analysis, Statistical Analysis"
+}

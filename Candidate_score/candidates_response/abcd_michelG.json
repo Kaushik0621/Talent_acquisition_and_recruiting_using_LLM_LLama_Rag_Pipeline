@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Michael Green",
+        "phone": "+44 7901 234 567"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Arts in Drama",
+            "institution": "Royal Academy of Dramatic Art, UK",
+            "start_date": "09/2010",
+            "end_date": "06/2013"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Actor",
+            "company": "National Theatre",
+            "start_date": "07/2013",
+            "end_date": "Present",
+            "responsibilities": "Performed in a variety of stage productions. Collaborated with directors and fellow actors to bring characters to life. Participated in workshops to enhance acting skills."
+        }
+    ],
+    "skills": "Acting, Voice Modulation, Stage Presence, Script Analysis, Collaboration"
+}

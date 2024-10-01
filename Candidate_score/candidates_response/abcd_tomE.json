@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Tom Edwards",
+        "phone": "+44 7891 234 567"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Civil Engineering",
+            "institution": "University of Cambridge, UK",
+            "start_date": "09/2010",
+            "end_date": "06/2013"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Civil Engineer",
+            "company": "BuildTech Ltd.",
+            "start_date": "07/2013",
+            "end_date": "Present",
+            "responsibilities": "Designed and managed infrastructure projects. Conducted site inspections and ensured compliance with safety standards. Collaborated with architects and contractors to deliver projects on time and within budget."
+        }
+    ],
+    "skills": "Civil Engineering, Project Management, Site Inspection, Safety Compliance, CAD"
+}

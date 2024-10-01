@@ -1,0 +1,30 @@
+{
+    "personal_info": {
+        "name": "Benjamin Carter",
+        "phone": "+44 07345678912"
+    },
+    "education": [
+        {
+            "degree": "Master of Science in Cybersecurity",
+            "institution": "University of Manchester, UK",
+            "start_date": "09/2019",
+            "end_date": "06/2021"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Security Analyst",
+            "company": "SecureNet Inc.",
+            "start_date": "07/2021",
+            "end_date": "Present",
+            "responsibilities": "Conducted vulnerability assessments and penetration testing., Developed security protocols and incident response plans., Monitored network traffic for suspicious activities."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "Intrusion Detection System",
+            "description": "Built an IDS using Python and Snort to detect and alert on potential security threats in real-time."
+        }
+    ],
+    "skills": "Python, Snort, Network Security, Vulnerability Assessment, Penetration Testing"
+}

@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Mark Hall",
+        "phone": "+44 7523 456 789"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Finance",
+            "institution": "University of Warwick, UK",
+            "start_date": "09/2011",
+            "end_date": "06/2014"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Investment Banker",
+            "company": "CapitalInvest Ltd.",
+            "start_date": "07/2014",
+            "end_date": "Present",
+            "responsibilities": "Advised clients on investment strategies. Managed client portfolios and performed risk assessments. Facilitated mergers and acquisitions."
+        }
+    ],
+    "skills": "Investment Banking, Portfolio Management, Risk Assessment, Mergers & Acquisitions, Financial Modeling"
+}

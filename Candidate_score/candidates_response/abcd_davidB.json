@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "David Brown",
+        "phone": "+44 7765 123 456"
+    },
+    "education": [
+        {
+            "degree": "Master of Business Administration",
+            "institution": "London Business School, UK",
+            "start_date": "09/2014",
+            "end_date": "06/2016"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Business Consultant",
+            "company": "Consulting Solutions Ltd.",
+            "start_date": "07/2016",
+            "end_date": "Present",
+            "responsibilities": "Advised clients on business strategy and operational improvements. Conducted market research and financial analysis. Developed and implemented business plans."
+        }
+    ],
+    "skills": "Business Strategy, Market Research, Financial Analysis, Project Management"
+}

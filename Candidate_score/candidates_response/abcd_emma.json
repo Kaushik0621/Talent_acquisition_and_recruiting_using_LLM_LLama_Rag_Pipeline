@@ -1,0 +1,30 @@
+{
+    "personal_info": {
+        "name": "Emma Wilson",
+        "phone": "+44 07678912345"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Software Engineering",
+            "institution": "University of Leeds, UK",
+            "start_date": "09/2018",
+            "end_date": "06/2021"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Junior Software Engineer",
+            "company": "Innovate Software Ltd.",
+            "start_date": "07/2021",
+            "end_date": "Present",
+            "responsibilities": "Assisted in developing new software features and bug fixes., Collaborated with senior engineers on code reviews and best practices., Participated in agile sprint planning and daily stand-ups."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "Task Management Application",
+            "description": "Developed a task management app using Django and PostgreSQL to track and manage user tasks effectively."
+        }
+    ],
+    "skills": "Django, PostgreSQL, Python, Agile, Software Development, Git"
+}

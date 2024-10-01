@@ -1,0 +1,36 @@
+{
+    "personal_info": {
+        "name": "Henry Evans",
+        "phone": "+44 07912345678"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Game Development",
+            "institution": "University of Hertfordshire, UK",
+            "start_date": "09/2015",
+            "end_date": "06/2018"
+        },
+        {
+            "degree": "Master of Science in Virtual Reality",
+            "institution": "University of Portsmouth, UK",
+            "start_date": "09/2018",
+            "end_date": "06/2020"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Game Developer",
+            "company": "PlayVision Games",
+            "start_date": "07/2020",
+            "end_date": "Present",
+            "responsibilities": "Developed interactive game features using Unity and C#., Optimized game performance and fixed bugs., Collaborated with artists and designers to create immersive experiences."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "VR Puzzle Game",
+            "description": "Developed a virtual reality puzzle game using Unity, enhancing player engagement with immersive gameplay mechanics."
+        }
+    ],
+    "skills": "Unity, C#, Game Development, Virtual Reality, Game Design"
+}

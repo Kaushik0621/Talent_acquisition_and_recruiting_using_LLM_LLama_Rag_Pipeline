@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Samantha Moore",
+        "phone": "+1 765-432-1098"
+    },
+    "education": [
+        {
+            "degree": "Master of Arts in History",
+            "institution": "Yale University, USA",
+            "start_date": "09/2012",
+            "end_date": "05/2014"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Museum Curator",
+            "company": "National Museum of History",
+            "start_date": "06/2014",
+            "end_date": "Present",
+            "responsibilities": "Curated exhibitions and managed collections. Conducted research on historical artifacts. Organized educational programs and guided tours."
+        }
+    ],
+    "skills": "Curating, Research, Collections Management, Exhibition Design, Public Speaking"
+}

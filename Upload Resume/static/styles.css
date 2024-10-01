@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Adjusting form label and input alignment */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 150px; /* Increased width for labels */
+    display: inline-block; /* Keep label and input on the same line */
+}
+
+input[type="text"], textarea {
+    padding: 10px;
+    width: 60%; /* Adjusted width to keep inputs smaller and aligned */
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block; /* Ensure input stays on the same line as label */
+}
+
+.form-section {
+    display: flex; /* Make label and input inline */
+    align-items: center; /* Center align input and label vertically */
+    justify-content: flex-start; /* Align elements to the left */
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+    width: 60%; /* Same width as text inputs for consistency */
+}
+
+/* Fix alignment for skills section */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea[name="skills"] {
+    width: 100%;
+}
+
+/* Aligning Add and Delete Buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button.still-working {
+    background-color: #ff5733;
+    margin-left: 10px;
+}
+
+button.still-working:hover {
+    background-color: #cc4629;
+}
+
+button.submit-btn {
+    background-color: #28a745;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button.submit-btn:hover {
+    background-color: #218838;
+}
+
+button.center {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+button.add-delete-btn {
+    margin: 10px auto;
+    display: block;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+}

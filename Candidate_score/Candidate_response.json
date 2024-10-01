@@ -1,0 +1,632 @@
+{
+    "abcd_jhon.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience is relevant to the job description as a Software Engineer, which involves developing and deploying software solutions. However, the experience does not directly align with machine learning and data science, resulting in a lower score. The duration and achievements are considered, but the career progression is limited in the machine learning domain."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor's degree in Computer Science, which is relevant to the job requirements. However, the lack of a Master's degree or PhD and additional certifications in machine learning or data science impacts the score. The institution's reputation is not a significant factor in this evaluation."
+        },
+        "Relevant Skills": {
+            "marks": 20,
+            "description": "The candidate possesses relevant technical skills such as JavaScript, React, Node.js, and experience with REST APIs, which demonstrate a foundation in software development. However, there is a lack of direct experience with machine learning frameworks like TensorFlow or PyTorch, which are crucial for the role. Soft skills are not emphasized in the provided context."
+        },
+        "total_marks": {
+            "marks": 55,
+            "description": "The candidate receives a total score of 55 out of 100. While the candidate shows some alignment with the job description in terms of work experience and core technical skills, there are notable gaps in direct experience with machine learning and data science, as well as advanced educational qualifications and certifications in these areas."
+        }
+    },
+    "abcd_michelG.json": {
+        "Work EX": {
+            "marks": 20,
+            "description": "The candidate's work experience as an Actor at the National Theatre is not directly relevant to the Machine Learning Engineer position. While the candidate may have developed some transferable skills like collaboration and creativity, the lack of experience in machine learning, data science, and software engineering significantly reduces the score."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's Bachelor of Arts in Drama is not closely aligned with the job requirements for a Machine Learning Engineer. The degree is in an unrelated field, resulting in a lower score in this category."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in Acting, Voice Modulation, and Stage Presence are not directly relevant to the technical skills required for a Machine Learning Engineer. While some soft skills like collaboration may be transferable, the lack of core technical skills in machine learning and data science reduces the score in this category."
+        },
+        "total_marks": {
+            "marks": 40,
+            "description": "The candidate scored a total of 40 out of 100. The low score is primarily due to the lack of direct relevance in work experience, education, and skills to the job description of a Machine Learning Engineer."
+        }
+    },
+    "abcd_nancyW.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as an Environmental Consultant is somewhat relevant to the job description. While the candidate has experience in advising on environmental policies and conducting impact assessments, there is a gap in direct machine learning model development and deployment experience. The duration and achievements are considered average, and there is limited career progression in the machine learning field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Science in Environmental Science, which is not directly aligned with the job requirements in computer science, engineering, or mathematics. The institution's reputation is good, but the degree relevance is low for this position."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate's skills in Environmental Impact Assessment, Sustainability Planning, and Policy Advising do not directly match the technical skills required for the Machine Learning Engineer role. While data analysis is a transferable skill, the lack of specific machine learning frameworks and programming languages impacts the score."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. The overall score reflects the mismatch between the candidate's background and the job requirements, particularly in terms of work experience, education, and relevant technical skills. While the candidate has some transferable skills and experience, they fall short of meeting the specific demands of the Machine Learning Engineer position."
+        }
+    },
+    "abcd_phillipB.json": {
+        "Work EX": {
+            "marks": 20,
+            "description": "The candidate's work experience as an Architect is somewhat relevant to the job description of a Machine Learning Engineer. While there are differences in the domains, some skills like collaboration, project management, and design could be transferable to certain aspects of the new role. However, the lack of direct experience in machine learning and data science reduces the score in this category."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Architecture degree which is not directly related to Computer Science, Engineering, Mathematics, or Statistics as required for the job. While a master's degree is a plus, the field of study is not aligned with the job requirements, resulting in a lower score in this category."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses skills in architectural design, project management, and client collaboration which, while not directly related to machine learning, demonstrate an ability to work on complex projects and collaborate with stakeholders. However, the lack of technical skills in machine learning frameworks and programming languages reduces the score in this category."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate scores 45 out of 100. While some aspects of the candidate's background show potential for adaptation to the new role, the lack of direct relevance in work experience, education, and technical skills significantly impacts the overall score. Further training and upskilling would be necessary for the candidate to excel in the role of a Machine Learning Engineer."
+        }
+    },
+    "abcd_ethan.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Robotics Engineer aligns well with the key responsibilities of the job description, showcasing relevant skills in automation, collaboration, and model development. The duration falls within the required 2 to 5 years range, and the achievements in designing and programming robotic systems for industrial automation are significant. However, the career progression is limited to the robotics field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor of Science in Robotics, which is somewhat relevant to the job requirements. While the degree aligns with the technical aspects of the role, it lacks depth in machine learning and data science compared to traditional computer science or mathematics degrees. The institution is reputable, but the qualification level is at the bachelor's level only."
+        },
+        "Relevant Skills": {
+            "marks": 20,
+            "description": "The candidate possesses relevant skills in Python, automation, and sensor integration, which are beneficial for the role. However, there is a gap in machine learning-specific skills like TensorFlow, PyTorch, and data preprocessing techniques mentioned in the job description. The candidate's skills in robotics and automation partially overlap with the required technical skills."
+        },
+        "total_marks": {
+            "marks": 55,
+            "description": "The candidate scores 55 out of 100. While the work experience demonstrates alignment with some key responsibilities, the education and skills sections show a lack of depth in machine learning and data science areas crucial for the role. The candidate's overall score is impacted by the relevance of their background to the job description."
+        }
+    },
+    "suman@123.json": {
+        "Work EX": {
+            "marks": 35,
+            "description": "The candidate's work experience is relevant to the job description as a Machine Learning Engineer, with experience in developing ML models, collaborating with teams, and deploying AI systems. The duration falls within the required 2-5 years range, and the achievements are significant in the field. However, there is a slight deduction in career progression due to a role shift to Software Engineer (RPA) in the past."
+        },
+        "Education": {
+            "marks": 12,
+            "description": "The candidate holds a Master's degree in Artificial Intelligence, which is closely related to the job requirements. The institution, University of Aberdeen, is reputable. However, the lack of additional certifications or training in specific ML areas slightly reduces the score."
+        },
+        "Relevant Skills": {
+            "marks": 25,
+            "description": "The candidate possesses relevant technical skills such as Python, TensorFlow, PyTorch, and Scikit-Learn, aligning well with the job description. However, there is a minor deduction for the absence of certain soft skills mentioned in the job overview."
+        },
+        "total_marks": {
+            "marks": 72,
+            "description": "The candidate scores well overall, with strong alignment in work experience and relevant skills. The education section, while decent, could have been enhanced with additional certifications. The total score reflects a solid fit for the mid-level Machine Learning Engineer position."
+        }
+    },
+    "abcd_jhonanderson.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Freelance Writer is not directly relevant to the job description of a Machine Learning Engineer. While aspects like content strategy and creativity may have some transferable skills, the lack of experience in machine learning, data science, and software engineering significantly reduces the score."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's Bachelor of Fine Arts in Creative Writing is not closely aligned with the job requirements for a Machine Learning Engineer. The degree is in an unrelated field, resulting in a lower score in this category."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in Creative Writing, Editing, and Content Strategy are not directly relevant to the technical skills required for a Machine Learning Engineer. While some soft skills may be transferable, the lack of core technical skills reduces the score in this category."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate received a total score of 45 out of 100. The low score is primarily due to the lack of direct relevance in work experience, education, and skills to the job description of a Machine Learning Engineer."
+        }
+    },
+    "abcd_emilyb.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Screenwriter at DreamWorks Studios involves developing original screenplays, collaborating with directors, and contributing to story development for films. While the creative aspect of screenwriting may not directly align with machine learning engineering, the candidate's experience in collaborating with different professionals and contributing to the development process can be beneficial for teamwork and communication aspects of the job."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Fine Arts in Screenwriting, which is not directly related to computer science, engineering, or data science required for the Machine Learning Engineer role. While the candidate's educational background demonstrates creativity and storytelling skills, it lacks the technical foundation needed for this position."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate's skills in screenwriting, story development, and creative collaboration, while not directly related to machine learning engineering, showcase abilities in creative problem-solving, communication, and collaboration. These soft skills could be valuable in a multidisciplinary team environment."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. While the candidate's work experience demonstrates collaboration and creativity, the lack of relevant technical skills and educational background for the Machine Learning Engineer role significantly impacts the overall score. The candidate may need additional training or education in machine learning and data science to be a stronger fit for this position."
+        }
+    },
+    "abcd_markH.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as an Investment Banker is somewhat relevant to the job description of a Machine Learning Engineer. While there are some transferable skills such as analytical abilities and collaboration, the lack of direct experience in machine learning and data science reduces the score. The duration and achievements are considered, but the career progression is not directly aligned with the job requirements."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's Bachelor of Science in Finance is not directly related to the job requirements for a Machine Learning Engineer. While finance and data science may have some overlapping skills, the relevance of the degree is low. The institution is reputable, but the qualification level and field of study do not align well with the job."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in investment banking, portfolio management, risk assessment, and financial modeling do not directly match the technical skills required for a Machine Learning Engineer. While some skills like risk assessment and financial modeling may have some relevance, the lack of machine learning, data science, and programming skills significantly reduces the score."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate scores 45 out of 100. The overall score is low due to the lack of direct relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While some transferable skills exist, the candidate falls short in meeting the specific requirements of the role."
+        }
+    },
+    "abcd@1234.json": {
+        "Work EX": {
+            "marks": 30,
+            "description": "The candidate's work experience is relevant to the job description, with a background in software engineering and machine learning. The duration falls within the required 2 to 5 years range, and the achievements are significant and aligned with the responsibilities. The career progression shows a transition towards machine learning and data science."
+        },
+        "Education": {
+            "marks": 20,
+            "description": "The candidate holds a Bachelor's degree in Electronics and Communications, which is somewhat relevant but not directly aligned with the job requirements in computer science, mathematics, or statistics. The institution's reputation is not highlighted, and there are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 25,
+            "description": "The candidate possesses relevant technical skills in Python, TensorFlow, PyTorch, and Scikit-Learn, which are crucial for the job. However, there is a lack of mention of certain key skills like R, big data technologies, and cloud platforms. Soft skills are not explicitly mentioned."
+        },
+        "total_marks": {
+            "marks": 75,
+            "description": "The candidate scores 75 out of 100. While the work experience demonstrates relevance and achievements, the education and some technical skills fall slightly short of the job requirements. Overall, the candidate shows promise but may benefit from further education or training in specific areas."
+        }
+    },
+    "abcd.paul.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Financial Analyst is somewhat relevant to the job description of a Machine Learning Engineer. While there are transferable skills such as data analysis and modeling, the lack of direct experience in machine learning may limit the score. The duration and achievements are considered average, and there is a slight career progression within the financial domain."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's Bachelor of Science in Economics is not directly related to the job requirements for a Machine Learning Engineer. This degree is less aligned with computer science, engineering, or mathematics, which are preferred fields for this role. The institution is reputable, but the degree relevance is low."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses some relevant skills such as data analysis, forecasting, and financial modeling. However, there is a lack of specific technical skills required for the Machine Learning Engineer role, such as proficiency in Python, machine learning frameworks, and big data technologies. Soft skills are not heavily weighted due to the lack of core technical skills."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. While there are some transferable skills from the candidate's work experience, the lack of direct relevance in education and technical skills impacts the overall score. To improve, the candidate should focus on gaining more technical skills in machine learning, programming languages, and data processing."
+        }
+    },
+    "abcd_steveC.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as an IT Consultant involves providing IT solutions, conducting system audits, and managing network infrastructure, which align well with the key responsibilities of the Machine Learning Engineer role. However, the lack of direct experience in machine learning and data science reduces the score. The duration and achievements are considered, but the career progression is limited in the relevant field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor of Science in Information Technology, which is not directly related to the preferred fields of Computer Science, Engineering, Mathematics, or Statistics for the Machine Learning Engineer role. The institution is reputable, but the degree relevance is low. There are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses skills in IT Consulting, System Audits, and Network Management, which are somewhat relevant but not directly aligned with the technical skills required for the Machine Learning Engineer position. The lack of specific machine learning frameworks, algorithms, and data processing skills impacts the score."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. While the candidate demonstrates some transferable skills and experience, the lack of direct relevance to machine learning, data science, and software engineering significantly impacts the overall score. Further education or training in the relevant fields would enhance the candidate's suitability for the role."
+        }
+    },
+    "abcd_olivia.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a UX/UI Designer is somewhat relevant to the job description of a Machine Learning Engineer. While there are differences in the specific roles, there are overlapping skills such as collaboration, documentation, and continuous learning. The duration and achievements are considered, but the career progression is not directly aligned with the machine learning field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's education in Computer Science is somewhat relevant to the job requirements. While the candidate holds degrees in related fields, the lack of a specific focus on machine learning or data science slightly reduces the score. The institutions are reputable, but additional certifications or training in machine learning would have been beneficial."
+        },
+        "Relevant Skills": {
+            "marks": 20,
+            "description": "The candidate possesses skills in Figma, UX Design, UI Design, Wireframing, Prototyping, and User Research, which are not directly aligned with the technical skills required for a Machine Learning Engineer. While some soft skills overlap, the core technical skills essential for the role are lacking, impacting the score in this category."
+        },
+        "total_marks": {
+            "marks": 55,
+            "description": "The candidate scores 55 out of 100. The overall score reflects the moderate alignment of the candidate's profile with the job description. While there are some relevant aspects in work experience and education, the lack of direct experience and technical skills in machine learning significantly impacts the total score."
+        }
+    },
+    "abcd_annaW.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Data Scientist aligns well with the key responsibilities of the job description, focusing on developing machine learning models, data analysis, and creating data visualizations. However, the lack of specific experience in model deployment, data pipeline management, and feature engineering slightly reduces the score."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Science in Data Science, which is relevant to the job requirements. However, the lack of a Bachelor's degree in Computer Science, Engineering, Mathematics, or Statistics slightly impacts the score."
+        },
+        "Relevant Skills": {
+            "marks": 20,
+            "description": "The candidate possesses relevant skills in Data Analysis, Machine Learning, Predictive Analytics, and Data Visualization, which are crucial for the role. However, the absence of specific technical skills like experience with machine learning frameworks (e.g., TensorFlow, PyTorch) and cloud platforms (AWS, Azure, GCP) lowers the score."
+        },
+        "total_marks": {
+            "marks": 55,
+            "description": "The candidate scores 55 out of 100. While the candidate demonstrates some alignment with the job description in terms of work experience and education, there are gaps in specific technical skills and experiences required for the role. Further training or experience in areas like model deployment, data pipeline management, and relevant technical skills would enhance the candidate's suitability for the position."
+        }
+    },
+    "abcd_benjamin.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Security Analyst at SecureNet Inc. involves conducting vulnerability assessments, penetration testing, developing security protocols, and incident response plans. While the candidate has relevant experience in cybersecurity, the job description emphasizes machine learning, data science, and software engineering, which are not directly reflected in the candidate's work experience. Therefore, the score is moderate."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Science in Cybersecurity from the University of Manchester, UK. While the field of study is related to technology and security, the job description requires a degree in Computer Science, Engineering, Mathematics, Statistics, or a related field. The candidate's degree is not a perfect match, resulting in a lower score."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses skills in Python, network security, vulnerability assessment, and penetration testing. While these skills are valuable in the cybersecurity domain, they do not directly align with the machine learning, data science, and software engineering focus of the job description. Therefore, the score for relevant skills is moderate."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate's overall score is 50 out of 100. The score reflects the mismatch between the candidate's background and the requirements of the job description, particularly in terms of work experience, education, and relevant skills. While the candidate has some transferable skills, there is a significant gap in meeting the specific criteria outlined in the job overview."
+        }
+    },
+    "abcd_karenW.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience is somewhat relevant to the job description as a Public Health Analyst involves data analysis and program development, which align with some aspects of the Machine Learning Engineer role. However, the lack of direct experience in machine learning and software engineering reduces the score. The duration and achievements are considered average, and there is no clear career progression in the machine learning field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Science in Public Health, which is not directly related to Computer Science, Engineering, or Mathematics required for the job. The institution's reputation is good, but the qualification level and field of study do not align well with the job requirements."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate's skills in Public Health Analysis and Data Analysis have some relevance to the job description, especially in terms of data processing and analysis. However, skills like Program Development and Policy Development are less directly applicable to the machine learning engineer role. The lack of technical skills in machine learning frameworks and programming languages reduces the score."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. While there are some transferable skills from the candidate's background in public health, the lack of direct experience, relevant education, and technical skills in machine learning significantly impact the overall score. Further training or experience in machine learning would be beneficial for this candidate to better align with the job requirements."
+        }
+    },
+    "abcd_henrey.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Game Developer is somewhat relevant to the job description of a Machine Learning Engineer. While the candidate has experience in developing interactive game features and collaborating with artists and designers, there is a gap in experience related to machine learning, data science, and software engineering. The duration and achievements in the current role are considered, but the lack of direct relevance impacts the score."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's education in Game Development and Virtual Reality is not directly aligned with the job requirements for a Machine Learning Engineer. While the candidate has relevant technical skills, the degree fields do not match the preferred fields of Computer Science, Engineering, Mathematics, or Statistics. The institution reputation and qualification level are considered, but the relevance of the degree is low."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses skills in Unity, C#, and Game Development, which are not directly relevant to the job of a Machine Learning Engineer. While technical skills are present, the core skills required for machine learning, data science, and software engineering are lacking. Soft skills are not heavily weighted due to the lack of relevant core and technical skills."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. The overall score reflects the lack of direct relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While the candidate has some technical skills and experience, the primary factor of relevance to the job is not met, resulting in a lower overall score."
+        }
+    },
+    "abcd_samanthaM.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Museum Curator involves responsibilities that are not directly aligned with the key responsibilities of a Machine Learning Engineer. While the candidate has experience in curating exhibitions, managing collections, and conducting research, these skills do not directly translate to building and deploying machine learning models or working with data pipelines and model evaluation."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Arts in History, which is not directly related to the job requirements of a Machine Learning Engineer. While a master's degree is a plus, the field of study does not align with computer science, engineering, mathematics, or statistics, which are preferred for this role."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate's skills in curating, research, collections management, and exhibition design do not directly match the technical skills required for a Machine Learning Engineer. While skills like research and analytical thinking are transferable, the lack of specific technical skills in machine learning frameworks, programming languages, and data processing tools impacts the score in this category."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores a total of 50 out of 100. The lower score is primarily due to the lack of direct relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While the candidate demonstrates some transferable skills, the specific technical requirements for the role are not met based on the provided information."
+        }
+    },
+    "abcd_lindaB.json": {
+        "Work EX": {
+            "marks": 20,
+            "description": "The candidate's work experience as a Registered Nurse is not directly relevant to the job description of a Machine Learning Engineer. While the candidate has valuable experience in healthcare, it does not align closely with the key responsibilities, industry, and domain of the job. Therefore, the score for relevance is low. The duration of the experience falls within the required range but does not compensate for the lack of relevance. Achievements and career progression in nursing are not applicable to the machine learning field."
+        },
+        "Education": {
+            "marks": 5,
+            "description": "The candidate's Bachelor of Science in Nursing is not directly related to the job requirements for a Machine Learning Engineer. The degree is in an unrelated field, resulting in a low score for relevance. While the institution is reputable, and the qualification level is at the bachelor's degree, the lack of relevance to the job description impacts the overall score. There are no additional certifications or training mentioned that could enhance the candidate's score in this category."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in patient care, medication administration, and health education from their nursing background do not directly align with the technical skills required for a Machine Learning Engineer. While soft skills like critical thinking and compassion are valuable, they are not the primary focus for this role. The candidate lacks proficiency in programming languages, machine learning frameworks, and other technical skills specified in the job description."
+        },
+        "total_marks": {
+            "marks": 35,
+            "description": "The candidate scores low overall due to the lack of relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While the candidate may possess valuable qualities from their nursing background, those qualities do not translate directly to the technical requirements of the role. Additional training or education in the field of machine learning would be necessary to improve the candidate's suitability for this position."
+        }
+    },
+    "abcd_lucas.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Cloud Engineer at CloudTech Solutions involves relevant responsibilities such as designing and managing cloud infrastructure, automating deployment processes, and monitoring cloud services. While the experience does not directly align with machine learning engineering, the candidate's skills in automation and cloud platforms like AWS can be beneficial."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Science in Cloud Computing, which is not directly related to the machine learning engineering role. While the educational background demonstrates technical expertise, it lacks direct relevance to the job requirements in machine learning and data science."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses skills in AWS, Terraform, and Ansible, which are relevant to cloud infrastructure and automation. However, there is a gap in core skills related to machine learning frameworks like TensorFlow, PyTorch, and Scikit-Learn, which are crucial for the role of a Machine Learning Engineer."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. While the candidate demonstrates some relevant experience in cloud infrastructure and automation, there is a lack of direct alignment with the key responsibilities and technical skills required for the Machine Learning Engineer position."
+        }
+    },
+    "abcd_emma.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Junior Software Engineer aligns well with the key responsibilities of the job description, particularly in software engineering and collaboration. The duration falls within the required 2 to 5 years range, and the achievements, although not explicitly mentioned, are assumed to be relevant to software development."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor's degree in Software Engineering, which is closely related to the job requirements. However, the institution where the degree was obtained is not specified, impacting the score. There are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 20,
+            "description": "The candidate possesses relevant skills such as Python, Django, PostgreSQL, and Agile, which are beneficial for a Machine Learning Engineer role. However, specific machine learning frameworks like TensorFlow, PyTorch, or Scikit-Learn are not explicitly mentioned in the candidate's skill set."
+        },
+        "total_marks": {
+            "marks": 55,
+            "description": "The candidate scores moderately based on work experience, education, and relevant skills. While the work experience aligns well with the job description, there are areas for improvement in terms of specific technical skills and educational background."
+        }
+    },
+    "abcd_daniel.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Frontend Developer is somewhat relevant to the job description of a Machine Learning Engineer. While the candidate has experience in web development using HTML, CSS, and JavaScript, there is a lack of direct experience in machine learning, data science, and model development. The duration and achievements are considered, but the career progression is limited in the relevant field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor of Science in Computer Science, which is somewhat relevant to the job requirements. However, a higher level of qualification or additional certifications in machine learning or data science would have been beneficial. The institution is reputable, but the relevance of the degree to the job is moderate."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses skills in HTML, CSS, JavaScript, and React, which are not directly aligned with the technical skills required for the Machine Learning Engineer role. While the candidate has some technical skills, there is a lack of proficiency in programming languages like Python, R, or Java, and experience with machine learning frameworks and cloud platforms."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. The overall assessment reflects a moderate alignment with the job description for a Machine Learning Engineer. While the candidate has some relevant experience and educational background, there are gaps in technical skills and direct experience in machine learning and data science."
+        }
+    },
+    "abcd_helenG.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Clinical Psychologist is not directly relevant to the job description of a Machine Learning Engineer. While the candidate has experience in psychological assessments, therapy, and research, these skills do not align closely with the key responsibilities of a Machine Learning Engineer. Therefore, the score is reduced."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Science in Psychology, which is not directly related to Computer Science, Engineering, Mathematics, or Statistics as required for the job. While a master's degree is a plus, the field of study does not align well with the job requirements, resulting in a lower score."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in Clinical Psychology, Therapy, Psychological Assessment, and Treatment Planning do not directly match the technical skills required for the Machine Learning Engineer position. Therefore, the score for relevant skills is reduced."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate scored 45 out of 100. The lower score is primarily due to the lack of direct relevance between the candidate's background and the job requirements for a Machine Learning Engineer. While the candidate may possess valuable skills and experience, they do not align closely with the technical requirements of the position."
+        }
+    },
+    "abcd_alice.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Software Developer is partially relevant to the job description of a Machine Learning Engineer. While the candidate has experience in developing and optimizing data processing pipelines, which aligns with data pipeline management responsibilities, there is a lack of direct experience in building and deploying machine learning models. The achievements and career progression are not directly related to machine learning, resulting in a moderate score."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor of Science in Computer Engineering, which is somewhat relevant to the job requirements for a Machine Learning Engineer. However, a degree in Computer Science, Mathematics, or Statistics would have been more closely aligned with the role. The institution is reputable, but the qualification level is at the bachelor's degree, which is considered average. There are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses skills in Python, which is a core skill required for the job. However, the lack of experience with machine learning frameworks like TensorFlow, PyTorch, or Scikit-Learn is a significant gap. While the candidate has experience in data visualization tools like D3.js, it does not directly align with the machine learning responsibilities outlined in the job description."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. The overall score reflects a moderate alignment with the job description for a Machine Learning Engineer. While the candidate has some relevant experience and skills, there are notable gaps in direct machine learning model development and deployment experience, as well as the lack of specific technical skills required for the role."
+        }
+    },
+    "abcd_sarah.json": {
+        "Work EX": {
+            "marks": 20,
+            "description": "The candidate's work experience as a Pediatrician is not directly relevant to the job description of a Machine Learning Engineer. While the candidate has valuable experience in healthcare, it does not align with the technical requirements of the role."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Doctor of Medicine degree, which is not directly related to Computer Science, Engineering, Mathematics, or Statistics as required for the job. The degree does not align with the educational background sought for a Machine Learning Engineer."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in Pediatrics, Patient Care, Diagnosis, and Treatment Planning are not directly relevant to the technical skills required for a Machine Learning Engineer. While some skills like medical education may have some transferable aspects, they do not match the core skills needed for the role."
+        },
+        "total_marks": {
+            "marks": 40,
+            "description": "The candidate scored a total of 40 out of 100. The low score is primarily due to the lack of relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While the candidate may possess valuable qualities, they do not align with the specific requirements of the role."
+        }
+    },
+    "abcd_charlotte.json": {
+        "Work EX": {
+            "marks": 30,
+            "description": "The candidate's work experience aligns well with the key responsibilities of the job description, particularly in model development, data pipeline management, feature engineering, and collaboration. The candidate's achievements in AI research and developing AI algorithms are significant and relevant. However, the career progression is limited as the candidate is currently in a mid-level role."
+        },
+        "Education": {
+            "marks": 20,
+            "description": "The candidate holds relevant degrees in Computer Science and Artificial Intelligence from reputable institutions. While the degrees align well with the job requirements, there are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 25,
+            "description": "The candidate possesses core skills in Python, NLP, and AI algorithms, which are directly relevant to the job description. However, there is a lack of mention of some technical skills like TensorFlow, PyTorch, or Scikit-Learn, which are essential for the role."
+        },
+        "total_marks": {
+            "marks": 75,
+            "description": "The candidate scores well overall, with strong alignment in work experience and education. The candidate's relevant skills are commendable, but there is room for improvement in technical skills alignment with the job requirements."
+        }
+    },
+    "abcd_LauraD.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Graphic Designer is somewhat relevant to the job description of a Machine Learning Engineer. While there are some transferable skills like collaboration and creativity, the lack of direct experience in machine learning and data science reduces the score. The duration and achievements are considered average, and there is no clear career progression in the relevant field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Fine Arts in Graphic Design, which is not directly related to the job requirements of a Machine Learning Engineer. The degree's relevance is low, impacting the score. The institution is reputable, but the qualification level does not align with the technical nature of the role. There are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate's skills in Graphic Design, Branding, and Adobe Creative Suite are not directly relevant to the technical skills required for a Machine Learning Engineer. While visual communication skills may be beneficial, the lack of proficiency in programming languages, machine learning frameworks, and other technical skills reduces the score. Soft skills like collaboration are acknowledged but carry less weight without core technical skills."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. The overall assessment reflects the mismatch between the candidate's background in graphic design and the technical requirements of the Machine Learning Engineer role. While there are some transferable skills and aspects of relevance, the lack of direct experience, education, and technical skills significantly impact the score."
+        }
+    },
+    "abcd_jhonsmith.json": {
+        "Work EX": {
+            "marks": 20,
+            "description": "The candidate's work experience as a Senior Accountant is somewhat relevant to the job description of a Machine Learning Engineer, particularly in terms of data analysis and financial reporting. However, the lack of direct experience in machine learning and data science reduces the score. The duration and achievements are considered, but the career progression is not directly aligned with the job requirements."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's Bachelor of Commerce in Accounting is not directly related to the job requirements for a Machine Learning Engineer. While the institution is reputable, the degree field does not align well with the technical aspects of the role. Additional certifications or training in machine learning or related fields are not mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate's skills in financial reporting, audit, compliance, and proficiency in Microsoft Excel are not directly relevant to the technical skills required for a Machine Learning Engineer. The lack of experience with machine learning frameworks, programming languages like Python, and other technical skills specified in the job description results in a lower score for relevant skills."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate scores 45 out of 100. While the candidate demonstrates some transferable skills and experience, the lack of direct relevance to the job description for a Machine Learning Engineer significantly impacts the overall score. Further education or training in machine learning and related technical skills would enhance the candidate's suitability for the role."
+        }
+    },
+    "abcd_tomE.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Civil Engineer is somewhat relevant to the job description of a Machine Learning Engineer. While there are some transferable skills such as problem-solving and collaboration, the lack of direct experience in machine learning and data science reduces the score. The duration and achievements are considered, but the career progression is limited in the relevant field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's Bachelor of Science in Civil Engineering is not directly related to the job requirements for a Machine Learning Engineer. The degree's relevance is low, impacting the score. The institution's reputation and qualification level do not compensate for the mismatch in the field of study."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in Civil Engineering, Project Management, and CAD are not directly aligned with the technical skills required for a Machine Learning Engineer. While some skills like problem-solving and collaboration are transferable, the lack of proficiency in programming languages, machine learning frameworks, and other technical requirements results in a low score."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate scores 45 out of 100. The overall assessment reflects the limited relevance of the candidate's background in Civil Engineering to the job description of a Machine Learning Engineer. While some skills and experiences have transferable elements, the lack of direct alignment with the technical requirements significantly impacts the total score."
+        }
+    },
+    "abcd_sophia.json": {
+        "Work EX": {
+            "marks": 30,
+            "description": "The candidate's work experience aligns well with the key responsibilities of the job description as a Data Scientist, involving model development, collaboration with stakeholders, and continuous learning. The duration falls within the required 2 to 5 years range, and the achievements are relevant to the field. However, there is a slight deduction in career progression as the candidate has not shown significant advancement within the same field."
+        },
+        "Education": {
+            "marks": 20,
+            "description": "The candidate holds a Master of Science in Data Science, which is directly relevant to the job requirements. The institution, University of Oxford, is prestigious. However, there is a minor deduction in marks as a Ph.D. is considered a plus in the job description, and the candidate does not possess it."
+        },
+        "Relevant Skills": {
+            "marks": 25,
+            "description": "The candidate possesses relevant technical skills in Python, scikit-learn, machine learning, data analysis, and statistical analysis, which are crucial for the role of a Machine Learning Engineer. However, there is a slight deduction in marks for not having experience with some specific tools and frameworks mentioned in the job description, such as TensorFlow, PyTorch, and cloud platforms."
+        },
+        "total_marks": {
+            "marks": 75,
+            "description": "The candidate scores well overall, with strong alignment in work experience and education with the job requirements. The candidate's relevant skills are commendable, although there is room for improvement in specific technical areas mentioned in the job description. Overall, a solid candidate for the position of a Machine Learning Engineer."
+        }
+    },
+    "abcd_robertL.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Mechanical Engineer is somewhat relevant to the job description of a Machine Learning Engineer. While the candidate has experience in designing and testing mechanical systems, collaborating with cross-functional teams, and conducting failure analysis, there is a gap in experience related to machine learning, data science, and software engineering. The relevance score is moderate due to some transferable skills."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor of Engineering in Mechanical Engineering, which is not directly aligned with the job requirements for a Machine Learning Engineer. The degree lacks relevance to the field of machine learning, data science, and software engineering, resulting in a lower score in this category."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in Mechanical Design, System Testing, and CAD are not directly relevant to the technical skills required for a Machine Learning Engineer. While some skills like project management may be transferable, the lack of core skills in machine learning frameworks, programming languages, and data preprocessing techniques results in a lower score in this category."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate scores 45 out of 100 based on the evaluation criteria. The lower score is primarily due to the lack of direct relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While some transferable skills exist, the overall fit for the role is limited."
+        }
+    },
+    "abcd_maryjhon.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Tax Accountant is somewhat relevant to the job description as it involves dealing with financial data and compliance. However, the lack of direct experience in machine learning and data science reduces the score. The duration and achievements are considered average, and there is limited career progression in the relevant field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master's degree in Professional Accounting, which is not directly aligned with the job requirements in machine learning and data science. The degree's relevance is low, impacting the score. There are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 10,
+            "description": "The candidate's skills in Tax Preparation, Tax Planning, and Compliance are not directly relevant to the job description of a Machine Learning Engineer. The lack of core skills in machine learning, data science, and programming languages required for the role results in a low score for relevant skills."
+        },
+        "total_marks": {
+            "marks": 45,
+            "description": "The candidate scores 45 out of 100. The overall score is low due to limited relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While some aspects of the candidate's profile show transferable skills, the lack of direct alignment with the job requirements significantly impacts the total score."
+        }
+    },
+    "abcd_alicecooper.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Software Developer at DataTech Ltd. involves developing and optimizing data processing pipelines using Python, which aligns well with the key responsibilities of building and deploying machine learning models. However, the lack of direct experience in machine learning and model development reduces the score. The duration and achievements are considered average, and there is no clear career progression in the machine learning field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Bachelor of Science in Computer Engineering, which is related to the job requirements. However, a degree in Computer Science or a more directly relevant field would have been more beneficial. The institution is reputable, but the qualification level is at the bachelor's degree, which is considered average. There are no additional certifications or training mentioned."
+        },
+        "Relevant Skills": {
+            "marks": 20,
+            "description": "The candidate possesses skills in Python, which is a core skill required for the job. However, there is no mention of experience with machine learning frameworks like TensorFlow or PyTorch, which are crucial for the role. The candidate's skills in data visualization tools like D3.js and React are not directly relevant to the job description. Overall, the candidate lacks some of the technical skills required for the position."
+        },
+        "total_marks": {
+            "marks": 55,
+            "description": "The candidate scores 55 out of 100. While the candidate demonstrates some alignment with the job description in terms of work experience and educational background, there are notable gaps in relevant skills required for the Machine Learning Engineer position. The lack of direct experience in machine learning model development and key technical skills impacts the overall score."
+        }
+    },
+    "abcd_chrisT.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Marketing Manager is somewhat relevant to the job description of a Machine Learning Engineer, particularly in terms of collaboration, documentation, and continuous learning. However, the lack of direct experience in machine learning and data science reduces the score. The duration and achievements are considered average, and there is limited career progression in the relevant field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate's Bachelor of Science in Marketing is not directly aligned with the job requirements for a Machine Learning Engineer. While the institution is reputable, the degree's relevance is low. There are no additional certifications or training mentioned that could enhance the candidate's score in this category."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate possesses some relevant skills such as collaboration, documentation, and market analysis. However, there is a lack of core technical skills required for the role of a Machine Learning Engineer, such as proficiency in programming languages, experience with machine learning frameworks, and strong understanding of algorithms and mathematical concepts."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100. While there are some transferable skills from the candidate's work experience, the lack of direct relevance in terms of education and technical skills significantly impacts the overall score. Further training or education in machine learning and data science would be beneficial for the candidate to excel in this role."
+        }
+    },
+    "abcd_davidB.json": {
+        "Work EX": {
+            "marks": 25,
+            "description": "The candidate's work experience as a Business Consultant is somewhat relevant to the job description of a Machine Learning Engineer. While the candidate has experience in advising clients on business strategy and operational improvements, conducting market research, and financial analysis, there is a gap in direct experience with machine learning model development, data pipeline management, and model evaluation. The duration of the experience falls within the required range, but the achievements and career progression do not directly align with the machine learning field."
+        },
+        "Education": {
+            "marks": 10,
+            "description": "The candidate holds a Master of Business Administration degree, which is not directly related to the job requirements of a Machine Learning Engineer. While an MBA can provide valuable skills, the lack of a technical degree in Computer Science, Engineering, Mathematics, or Statistics reduces the relevance of the education to the role. There are no additional certifications or training mentioned that could enhance the candidate's suitability for the position."
+        },
+        "Relevant Skills": {
+            "marks": 15,
+            "description": "The candidate's skills in Business Strategy, Market Research, and Financial Analysis, while valuable in a business context, do not directly align with the technical skills required for a Machine Learning Engineer role. The candidate lacks proficiency in programming languages like Python, R, or Java, experience with machine learning frameworks, and familiarity with big data technologies and cloud platforms essential for the job."
+        },
+        "total_marks": {
+            "marks": 50,
+            "description": "The candidate scores 50 out of 100 based on the evaluation criteria. The overall score reflects the lack of direct relevance in work experience, education, and skills to the job description of a Machine Learning Engineer. While the candidate possesses some transferable skills and experience, there is a significant gap in meeting the technical requirements and domain expertise needed for the role."
+        }
+    }
+}

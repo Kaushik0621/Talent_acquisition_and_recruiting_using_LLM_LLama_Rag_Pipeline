@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Mary Johnson",
+        "phone": "+44 020 1234 5678"
+    },
+    "education": [
+        {
+            "degree": "Master of Professional Accounting",
+            "institution": "University of London, UK",
+            "start_date": "09/2016",
+            "end_date": "06/2018"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Tax Accountant",
+            "company": "TaxMasters Inc.",
+            "start_date": "07/2018",
+            "end_date": "Present",
+            "responsibilities": "Prepared tax returns for corporate clients. Advised clients on tax planning strategies. Ensured compliance with local and international tax laws."
+        }
+    ],
+    "skills": "Tax Preparation, Tax Planning, Compliance, QuickBooks, Microsoft Excel"
+}

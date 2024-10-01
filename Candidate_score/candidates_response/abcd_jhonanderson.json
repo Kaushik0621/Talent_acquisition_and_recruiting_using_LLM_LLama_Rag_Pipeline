@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "James Anderson",
+        "phone": "+1 345-678-1234"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Fine Arts in Creative Writing",
+            "institution": "New York University, USA",
+            "start_date": "09/2011",
+            "end_date": "05/2015"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Freelance Writer",
+            "company": "Self-employed",
+            "start_date": "06/2015",
+            "end_date": "Present",
+            "responsibilities": "Authored articles and essays for various online publications. Edited and proofread manuscripts for clients. Created content strategies for small businesses."
+        }
+    ],
+    "skills": "Creative Writing, Editing, Content Strategy, SEO, Blogging"
+}

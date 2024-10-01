@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Upload</title>
+</head>
+<body>
+    <h1>Upload Your Resume</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="resume" accept="application/pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if result %}
+    <h2>Query Result:</h2>
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "personal_info": {
+        "name": "Lucas Martinez",
+        "phone": "+44 07789123456"
+    },
+    "education": [
+        {
+            "degree": "Master of Science in Cloud Computing",
+            "institution": "University of Birmingham, UK",
+            "start_date": "09/2020",
+            "end_date": "06/2022"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Cloud Engineer",
+            "company": "CloudTech Solutions",
+            "start_date": "07/2022",
+            "end_date": "Present",
+            "responsibilities": "Designed and managed cloud infrastructure using AWS., Automated deployment processes using Terraform and Ansible., Monitored cloud services and optimized costs."
+        }
+    ],
+    "projects": [
+        {
+            "project_name": "Cloud Infrastructure Automation",
+            "description": "Implemented automated deployment pipelines using Terraform for a multi-cloud environment, reducing deployment times by 40%."
+        }
+    ],
+    "skills": "AWS, Terraform, Ansible, Cloud Infrastructure, Automation, Cost Optimization"
+}

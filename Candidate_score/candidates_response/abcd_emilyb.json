@@ -1,0 +1,24 @@
+{
+    "personal_info": {
+        "name": "Emily Brown",
+        "phone": "+1 789-654-3210"
+    },
+    "education": [
+        {
+            "degree": "Master of Fine Arts in Screenwriting",
+            "institution": "University of Southern California, USA",
+            "start_date": "09/2014",
+            "end_date": "05/2016"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Screenwriter",
+            "company": "DreamWorks Studios",
+            "start_date": "06/2016",
+            "end_date": "Present",
+            "responsibilities": "Developed original screenplays and collaborated with directors to revise scripts. Contributed to the story development process for animated and live-action films."
+        }
+    ],
+    "skills": "Screenwriting, Story Development, Script Editing, Creative Collaboration"
+}

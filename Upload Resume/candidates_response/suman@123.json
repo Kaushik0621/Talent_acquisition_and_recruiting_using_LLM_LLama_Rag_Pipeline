@@ -1,0 +1,46 @@
+{
+    "personal_info": {
+        "name": "Suman Deb",
+        "phone": "+44-7827387465"
+    },
+    "education": [
+        {
+            "degree": "MSc. in Artificial Intelligence",
+            "institution": "University of Aberdeen",
+            "start_date": "01/2023",
+            "end_date": "06/2024"
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Machine Learning Engineer",
+            "company": "Upsurge Labs",
+            "start_date": "08/2024",
+            "end_date": "N/A",
+            "responsibilities": "Design and optimize LLM-driven RAG pipelines with Lang-chain, Collaborate across teams to align AI capabilities with business goals, Architect and deploy advanced computer vision systems utilizing deep learning models"
+        },
+        {
+            "role": "Machine Learning Engineer",
+            "company": "Zycus Infotech",
+            "start_date": "01/2022",
+            "end_date": "01/2023",
+            "responsibilities": "Developed a Smart-shopper application using RFM analysis and NLP libraries, Implemented ML solutions for S2P and P2P product modules, Created a quote extraction system using image processing"
+        },
+        {
+            "role": "Software Engineer (RPA)",
+            "company": "Zycus Infotech",
+            "start_date": "06/2020",
+            "end_date": "01/2022",
+            "responsibilities": "Worked to optimize workflow processes and reduce manual intervention, Developed automation using Selenium, Pandas, API(XML/JSON), MIME, API(REST/SOAP), and SFTP with Python, Automated industry ticketing tools like Salesforce and JIRA"
+        },
+        {
+            "role": "Product Technical Analyst",
+            "company": "Zycus Infotech",
+            "start_date": "07/2019",
+            "end_date": "06/2020",
+            "responsibilities": "Worked on analysis & resolution of S2P modules, Collaborated with customer representatives & internal team members, Used Salesforce ticketing tool, PowerBI, and JIRA to raise, track & resolve queries"
+        }
+    ],
+    "projects": [],
+    "skills": "Python, PDDL, Groovy, RPA, Selenium, TensorFlow, Keras, PyTorch, Scikit-Learn, LLM, Agile, APIdev, CI/CD, SDLC, Docker, Kubernetes, AWS, Jenkins, GIT, PowerBI, Flask, Linux, EmbeddedSystems"
+}
